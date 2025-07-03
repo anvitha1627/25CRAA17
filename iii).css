@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #eef9ef;
+    color: #000;
+  }
+  
+
+  .navbar {
+    background-color: #0b2c4c;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+  }
+  
+  .logo img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .content {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .content h1 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  
+  .content h2 {
+    font-size: 35px;
+    font-weight: normal;
+    margin-bottom: 40px;
+  }
+  
+ 
+  .roles {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+  }
+  
+  .role-card {
+    text-align: center;
+  }
+  .sc-para{
+    margin-left: 100px;
+  }
+  .ag-para{
+    margin-left: 100px;
+  }
+  .pl-para{
+    margin-left: 100px;
+  }
+  .role-card button {
+    margin-top: 90px;
+    margin-left: 100px;
+    background-color: #5ee1dc;
+    border: none;
+    padding: 30px 65px;
+    font-size: 25px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .role-card p {
+    font-size: 25px;
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+  
+
+  .footer-text h3 {
+    padding-top: 60px;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-left: 70px;
+  }
